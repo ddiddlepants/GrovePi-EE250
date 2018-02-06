@@ -9,7 +9,7 @@ import socket
 def Process1():
     # Change the host and port as needed. For ports, use a number in the 9000 
     # range. 
-    host = '127.0.0.1'
+    host = '192.168.1.225'
     port = 5000
 
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
