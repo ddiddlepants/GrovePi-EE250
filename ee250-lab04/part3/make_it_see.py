@@ -31,7 +31,7 @@ def Main():
         data = data.decode('utf-8')
         print("Received from server: " + data)
         dst_port = input("destination port-> ")
-        message = input("message-> ")
+        
     s.close()
 
 if __name__ == '__main__':
